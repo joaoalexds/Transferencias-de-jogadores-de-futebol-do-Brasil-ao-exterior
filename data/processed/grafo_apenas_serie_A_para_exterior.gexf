@@ -1,0 +1,3639 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-15">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="volume" type="long" />
+      <attribute id="1" title="valor_financeiro" type="double" />
+      <attribute id="2" title="categoria_origem" type="string" />
+      <attribute id="3" title="categoria_destino" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Athletico Paranaense" label="Athletico Paranaense" />
+      <node id="Besiktas" label="Besiktas" />
+      <node id="CA Talleres" label="CA Talleres" />
+      <node id="Cong An HCMC" label="Cong An HCMC" />
+      <node id="Hapoel Tel Aviv" label="Hapoel Tel Aviv" />
+      <node id="Huachipato" label="Huachipato" />
+      <node id="Indep. Medellín" label="Indep. Medellín" />
+      <node id="Independiente" label="Independiente" />
+      <node id="Nacional" label="Nacional" />
+      <node id="Olimpia" label="Olimpia" />
+      <node id="Pafos" label="Pafos" />
+      <node id="Puebla FC" label="Puebla FC" />
+      <node id="Santos Laguna" label="Santos Laguna" />
+      <node id="Shakhtar" label="Shakhtar" />
+      <node id="Sharjah FC" label="Sharjah FC" />
+      <node id="Atlético Mineiro" label="Atlético Mineiro" />
+      <node id="Al-Wasl" label="Al-Wasl" />
+      <node id="Alverca" label="Alverca" />
+      <node id="Boca Juniors" label="Boca Juniors" />
+      <node id="Bolívar" label="Bolívar" />
+      <node id="CSKA Moscou" label="CSKA Moscou" />
+      <node id="Dínamo Moscou" label="Dínamo Moscou" />
+      <node id="FC Porto" label="FC Porto" />
+      <node id="Karpaty Lviv" label="Karpaty Lviv" />
+      <node id="RFS" label="RFS" />
+      <node id="Racing" label="Racing" />
+      <node id="River Plate" label="River Plate" />
+      <node id="Sassuolo" label="Sassuolo" />
+      <node id="Shabab Al-Ahli" label="Shabab Al-Ahli" />
+      <node id="Sporting" label="Sporting" />
+      <node id="Sporting B" label="Sporting B" />
+      <node id="Verona" label="Verona" />
+      <node id="Botafogo FR" label="Botafogo FR" />
+      <node id="Al-Ain" label="Al-Ain" />
+      <node id="Al-Dhafra FC" label="Al-Dhafra FC" />
+      <node id="Al-Orooba" label="Al-Orooba" />
+      <node id="Al-Rayyan" label="Al-Rayyan" />
+      <node id="Al-Ula" label="Al-Ula" />
+      <node id="Atlético" label="Atlético" />
+      <node id="Boston River" label="Boston River" />
+      <node id="CD Tondela" label="CD Tondela" />
+      <node id="Cerro Porteño" label="Cerro Porteño" />
+      <node id="Cádiz CF" label="Cádiz CF" />
+      <node id="Estoril" label="Estoril" />
+      <node id="Everton" label="Everton" />
+      <node id="FC Porto B" label="FC Porto B" />
+      <node id="Houston" label="Houston" />
+      <node id="Kawasaki Front." label="Kawasaki Front." />
+      <node id="LA Galaxy" label="LA Galaxy" />
+      <node id="LN Tieren" label="LN Tieren" />
+      <node id="León" label="León" />
+      <node id="Ludogorets" label="Ludogorets" />
+      <node id="Lyon" label="Lyon" />
+      <node id="Millonarios" label="Millonarios" />
+      <node id="Nott'm Forest" label="Nott'm Forest" />
+      <node id="Portimonense" label="Portimonense" />
+      <node id="RWDM" label="RWDM" />
+      <node id="RWDM Brussels" label="RWDM Brussels" />
+      <node id="Rio Ave" label="Rio Ave" />
+      <node id="Salt Lake" label="Salt Lake" />
+      <node id="Santa Clara" label="Santa Clara" />
+      <node id="Spartak" label="Spartak" />
+      <node id="WH Three Towns" label="WH Three Towns" />
+      <node id="Zenit" label="Zenit" />
+      <node id="CR Flamengo" label="CR Flamengo" />
+      <node id="Al-Ahli" label="Al-Ahli" />
+      <node id="Estrela Amadora" label="Estrela Amadora" />
+      <node id="FC Lugano" label="FC Lugano" />
+      <node id="Göztepe" label="Göztepe" />
+      <node id="Leixões" label="Leixões" />
+      <node id="Orlando" label="Orlando" />
+      <node id="Pisa" label="Pisa" />
+      <node id="Roma" label="Roma" />
+      <node id="UNAM Pumas" label="UNAM Pumas" />
+      <node id="Wolfsburg" label="Wolfsburg" />
+      <node id="CR Vasco da Gama" label="CR Vasco da Gama" />
+      <node id="Al-Shabab" label="Al-Shabab" />
+      <node id="Aris Saloniki" label="Aris Saloniki" />
+      <node id="Aston Villa" label="Aston Villa" />
+      <node id="Bandirma Spor" label="Bandirma Spor" />
+      <node id="Bournemouth" label="Bournemouth" />
+      <node id="C. Rizespor" label="C. Rizespor" />
+      <node id="CT United FC" label="CT United FC" />
+      <node id="Cincinnati" label="Cincinnati" />
+      <node id="Cracovia" label="Cracovia" />
+      <node id="Crystal Palace" label="Crystal Palace" />
+      <node id="Galatasaray" label="Galatasaray" />
+      <node id="Karagümrük" label="Karagümrük" />
+      <node id="Leiria" label="Leiria" />
+      <node id="Limache" label="Limache" />
+      <node id="Miami" label="Miami" />
+      <node id="Monterrey" label="Monterrey" />
+      <node id="Panserraikos" label="Panserraikos" />
+      <node id="Peñarol" label="Peñarol" />
+      <node id="Polissya" label="Polissya" />
+      <node id="Rennes" label="Rennes" />
+      <node id="Toronto" label="Toronto" />
+      <node id="Ceará SC" label="Ceará SC" />
+      <node id="Al-Jubail" label="Al-Jubail" />
+      <node id="FC Juárez" label="FC Juárez" />
+      <node id="Matsumoto Yama." label="Matsumoto Yama." />
+      <node id="Palestino" label="Palestino" />
+      <node id="SH Shenhua" label="SH Shenhua" />
+      <node id="Seoul E-Land" label="Seoul E-Land" />
+      <node id="Chapecoense" label="Chapecoense" />
+      <node id="H. C. Sapporo" label="H. C. Sapporo" />
+      <node id="Metalist" label="Metalist" />
+      <node id="Clube do Remo" label="Clube do Remo" />
+      <node id="Al-Arabi" label="Al-Arabi" />
+      <node id="Karmiotissa" label="Karmiotissa" />
+      <node id="Maccabi Netanya" label="Maccabi Netanya" />
+      <node id="Persija" label="Persija" />
+      <node id="Persik" label="Persik" />
+      <node id="Rosario Central" label="Rosario Central" />
+      <node id="Sport. Cristal" label="Sport. Cristal" />
+      <node id="Vinotinto FC" label="Vinotinto FC" />
+      <node id="Wanderers" label="Wanderers" />
+      <node id="YN Yukun" label="YN Yukun" />
+      <node id="Yokohama FC" label="Yokohama FC" />
+      <node id="Coritiba FC" label="Coritiba FC" />
+      <node id="APOEL Nicósia" label="APOEL Nicósia" />
+      <node id="Alanyaspor" label="Alanyaspor" />
+      <node id="Coquimbo" label="Coquimbo" />
+      <node id="Midtjylland" label="Midtjylland" />
+      <node id="Moreirense" label="Moreirense" />
+      <node id="União Santarém" label="União Santarém" />
+      <node id="Cruzeiro EC" label="Cruzeiro EC" />
+      <node id="Al-Bataeh CSC" label="Al-Bataeh CSC" />
+      <node id="Al-Hilal" label="Al-Hilal" />
+      <node id="Argentinos Jrs." label="Argentinos Jrs." />
+      <node id="Arsenal" label="Arsenal" />
+      <node id="Como" label="Como" />
+      <node id="Copenhague" label="Copenhague" />
+      <node id="Dallas" label="Dallas" />
+      <node id="Dortmund" label="Dortmund" />
+      <node id="FK Oleksandriya" label="FK Oleksandriya" />
+      <node id="Indep. Santa Fe" label="Indep. Santa Fe" />
+      <node id="Kyoto Sanga" label="Kyoto Sanga" />
+      <node id="Metalist 1925" label="Metalist 1925" />
+      <node id="Norwich" label="Norwich" />
+      <node id="Rangers" label="Rangers" />
+      <node id="SH Port" label="SH Port" />
+      <node id="Yokohama F. M." label="Yokohama F. M." />
+      <node id="EC Bahia" label="EC Bahia" />
+      <node id="Cerezo Osaka" label="Cerezo Osaka" />
+      <node id="Chornomorets" label="Chornomorets" />
+      <node id="Eyüpspor" label="Eyüpspor" />
+      <node id="Hull City" label="Hull City" />
+      <node id="Kaysar" label="Kaysar" />
+      <node id="Lens" label="Lens" />
+      <node id="Man City U21" label="Man City U21" />
+      <node id="NEOM SC" label="NEOM SC" />
+      <node id="New York City" label="New York City" />
+      <node id="Newell's" label="Newell's" />
+      <node id="Ordabasy" label="Ordabasy" />
+      <node id="QD West Coast" label="QD West Coast" />
+      <node id="EC Juventude" label="EC Juventude" />
+      <node id="Buriram Utd." label="Buriram Utd." />
+      <node id="Portimonense 23" label="Portimonense 23" />
+      <node id="Ulsan HD" label="Ulsan HD" />
+      <node id="Urawa Reds" label="Urawa Reds" />
+      <node id="EC Vitória" label="EC Vitória" />
+      <node id="A. Bucaramanga" label="A. Bucaramanga" />
+      <node id="Alianza Lima" label="Alianza Lima" />
+      <node id="Bolton" label="Bolton" />
+      <node id="FC Seoul" label="FC Seoul" />
+      <node id="Famalicão" label="Famalicão" />
+      <node id="Júbilo Iwata" label="Júbilo Iwata" />
+      <node id="Ventforet Kofu" label="Ventforet Kofu" />
+      <node id="Fluminense FC" label="Fluminense FC" />
+      <node id="América" label="América" />
+      <node id="Dibba Al-Hisn" label="Dibba Al-Hisn" />
+      <node id="Majd FC" label="Majd FC" />
+      <node id="NYCFC II" label="NYCFC II" />
+      <node id="Pachuca" label="Pachuca" />
+      <node id="Pattaya United" label="Pattaya United" />
+      <node id="QPR" label="QPR" />
+      <node id="Sydney FC" label="Sydney FC" />
+      <node id="Torreense S23" label="Torreense S23" />
+      <node id="Wolves" label="Wolves" />
+      <node id="Wydad AC" label="Wydad AC" />
+      <node id="Fortaleza EC" label="Fortaleza EC" />
+      <node id="Al-Khaldiya FC" label="Al-Khaldiya FC" />
+      <node id="Dinamo de Kiev" label="Dinamo de Kiev" />
+      <node id="Legia Varsóvia" label="Legia Varsóvia" />
+      <node id="New England" label="New England" />
+      <node id="Vélez Sarsfield" label="Vélez Sarsfield" />
+      <node id="Grêmio FBPA" label="Grêmio FBPA" />
+      <node id="AVS" label="AVS" />
+      <node id="Al-Jazira" label="Al-Jazira" />
+      <node id="Brentford" label="Brentford" />
+      <node id="Deportivo Cali" label="Deportivo Cali" />
+      <node id="FC Tokyo" label="FC Tokyo" />
+      <node id="Fenerbahce" label="Fenerbahce" />
+      <node id="Fiorentina" label="Fiorentina" />
+      <node id="Juventus" label="Juventus" />
+      <node id="KF Vora" label="KF Vora" />
+      <node id="Lanús" label="Lanús" />
+      <node id="New York" label="New York" />
+      <node id="Portland" label="Portland" />
+      <node id="San Luis" label="San Luis" />
+      <node id="UD Almería" label="UD Almería" />
+      <node id="Mirassol FC" label="Mirassol FC" />
+      <node id="Busan IPark" label="Busan IPark" />
+      <node id="Levski Sofia" label="Levski Sofia" />
+      <node id="Torpedo" label="Torpedo" />
+      <node id="Torpedo Kutaisi" label="Torpedo Kutaisi" />
+      <node id="RB Bragantino" label="RB Bragantino" />
+      <node id="Al-Wahda" label="Al-Wahda" />
+      <node id="Avispa Fukuoka" label="Avispa Fukuoka" />
+      <node id="Benfica B" label="Benfica B" />
+      <node id="Cercle Brügge" label="Cercle Brügge" />
+      <node id="Deportivo Pasto" label="Deportivo Pasto" />
+      <node id="FC Rapid 1923" label="FC Rapid 1923" />
+      <node id="Gil Vicente" label="Gil Vicente" />
+      <node id="Houston 2" label="Houston 2" />
+      <node id="RB Salzburg" label="RB Salzburg" />
+      <node id="Real Oviedo" label="Real Oviedo" />
+      <node id="SD Huesca" label="SD Huesca" />
+      <node id="Tokushima Vort." label="Tokushima Vort." />
+      <node id="Toluca" label="Toluca" />
+      <node id="SC Corinthians" label="SC Corinthians" />
+      <node id="Al-Nassr" label="Al-Nassr" />
+      <node id="Ferencváros" label="Ferencváros" />
+      <node id="PSG" label="PSG" />
+      <node id="Univ. Católica" label="Univ. Católica" />
+      <node id="Vissel Kobe" label="Vissel Kobe" />
+      <node id="SC Internacional" label="SC Internacional" />
+      <node id="Al-Qadsiah" label="Al-Qadsiah" />
+      <node id="Casa Pia" label="Casa Pia" />
+      <node id="Celtic" label="Celtic" />
+      <node id="Estudiantes LP" label="Estudiantes LP" />
+      <node id="Farense" label="Farense" />
+      <node id="Hertha Berlim" label="Hertha Berlim" />
+      <node id="Libertad" label="Libertad" />
+      <node id="Real Murcia" label="Real Murcia" />
+      <node id="Tigres UANL" label="Tigres UANL" />
+      <node id="U. de Chile" label="U. de Chile" />
+      <node id="SE Palmeiras" label="SE Palmeiras" />
+      <node id="Austin" label="Austin" />
+      <node id="Benfica" label="Benfica" />
+      <node id="Chelsea" label="Chelsea" />
+      <node id="Colorado" label="Colorado" />
+      <node id="Man City" label="Man City" />
+      <node id="NK Osijek" label="NK Osijek" />
+      <node id="Qarabağ" label="Qarabağ" />
+      <node id="Real Madrid" label="Real Madrid" />
+      <node id="West Ham" label="West Ham" />
+      <node id="Santos FC" label="Santos FC" />
+      <node id="ACSM Poli Iasi" label="ACSM Poli Iasi" />
+      <node id="Al-Markhiya SC" label="Al-Markhiya SC" />
+      <node id="Atl. Nacional" label="Atl. Nacional" />
+      <node id="Auda" label="Auda" />
+      <node id="Banfield" label="Banfield" />
+      <node id="Cancún FC" label="Cancún FC" />
+      <node id="Chelsea U21" label="Chelsea U21" />
+      <node id="Cheongju FC" label="Cheongju FC" />
+      <node id="FC Burnley" label="FC Burnley" />
+      <node id="FC Portsmouth" label="FC Portsmouth" />
+      <node id="Loko Moscou" label="Loko Moscou" />
+      <node id="M. Tel Aviv" label="M. Tel Aviv" />
+      <node id="Niki Volos" label="Niki Volos" />
+      <node id="Tottenham" label="Tottenham" />
+      <node id="V-V. Nagasaki" label="V-V. Nagasaki" />
+      <node id="Sport Recife" label="Sport Recife" />
+      <node id="QD Hainiu" label="QD Hainiu" />
+      <node id="Táchira" label="Táchira" />
+      <node id="São Paulo FC" label="São Paulo FC" />
+      <node id="Belgrano" label="Belgrano" />
+      <node id="GD GZ-Power" label="GD GZ-Power" />
+      <node id="Krasnodar" label="Krasnodar" />
+      <node id="Lazio" label="Lazio" />
+      <node id="Newcastle" label="Newcastle" />
+      <node id="Rayo Vallecano" label="Rayo Vallecano" />
+      <node id="Southampton" label="Southampton" />
+      <node id="Thundering Herd" label="Thundering Herd" />
+      <node id="VRS Academy" label="VRS Academy" />
+    </nodes>
+    <edges>
+      <edge source="Athletico Paranaense" target="Besiktas" id="0" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="CA Talleres" id="1" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Cong An HCMC" id="2" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Hapoel Tel Aviv" id="3" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="300000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Huachipato" id="4" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Indep. Medellín" id="5" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Independiente" id="6" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1650000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Nacional" id="7" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Olimpia" id="8" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Pafos" id="9" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Puebla FC" id="10" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Santos Laguna" id="11" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2100000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Shakhtar" id="12" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="11000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Sharjah FC" id="13" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Al-Wasl" id="14" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4850000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Alverca" id="15" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Boca Juniors" id="16" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1550000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Bolívar" id="17" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="CSKA Moscou" id="18" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Dínamo Moscou" id="19" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="9000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="FC Porto" id="20" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Karpaty Lviv" id="21" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Nacional" id="22" weight="3">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="RFS" id="23" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Racing" id="24" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1650000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="River Plate" id="25" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="425000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Sassuolo" id="26" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Shabab Al-Ahli" id="27" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Shakhtar" id="28" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="14000030.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Sporting" id="29" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Sporting B" id="30" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Verona" id="31" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Al-Ain" id="32" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Al-Dhafra FC" id="33" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Al-Orooba" id="34" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Al-Rayyan" id="35" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="6020000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Al-Ula" id="36" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Al-Wasl" id="37" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="850000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Atlético" id="38" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="21000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Boston River" id="39" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="CD Tondela" id="40" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Cerro Porteño" id="41" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Cádiz CF" id="42" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Dínamo Moscou" id="43" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="6000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Estoril" id="44" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Everton" id="45" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="FC Porto B" id="46" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Houston" id="47" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1350000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Kawasaki Front." id="48" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="LA Galaxy" id="49" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="LN Tieren" id="50" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="300000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="León" id="51" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Ludogorets" id="52" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Lyon" id="53" weight="3">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Millonarios" id="54" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Nott'm Forest" id="55" weight="4">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="45000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Portimonense" id="56" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="RWDM" id="57" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="RWDM Brussels" id="58" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Rio Ave" id="59" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Salt Lake" id="60" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Santa Clara" id="61" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Spartak" id="62" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="WH Three Towns" id="63" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Zenit" id="64" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="33000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Al-Ahli" id="65" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="9000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Al-Dhafra FC" id="66" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Al-Ula" id="67" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Estrela Amadora" id="68" weight="4">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="2850000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Everton" id="69" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="15000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="FC Lugano" id="70" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Göztepe" id="71" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Leixões" id="72" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="100000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Orlando" id="73" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1200000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Pisa" id="74" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="River Plate" id="75" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="428000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Roma" id="76" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="25000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="UNAM Pumas" id="77" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="5000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Wolfsburg" id="78" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Zenit" id="79" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="25000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Al-Shabab" id="80" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="458000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Alverca" id="81" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="750000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Aris Saloniki" id="82" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Aston Villa" id="83" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Bandirma Spor" id="84" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Boca Juniors" id="85" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Bournemouth" id="86" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="28500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="C. Rizespor" id="87" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="CA Talleres" id="88" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1380000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="CSKA Moscou" id="89" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="CT United FC" id="90" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Cerro Porteño" id="91" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Cincinnati" id="92" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Cracovia" id="93" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Crystal Palace" id="94" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Galatasaray" id="95" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Independiente" id="96" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Karagümrük" id="97" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Leiria" id="98" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Limache" id="99" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Ludogorets" id="100" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1385000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Miami" id="101" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Monterrey" id="102" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Nacional" id="103" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Nott'm Forest" id="104" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Olimpia" id="105" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Panserraikos" id="106" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Peñarol" id="107" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Polissya" id="108" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Rennes" id="109" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Rio Ave" id="110" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="3000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="River Plate" id="111" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Santa Clara" id="112" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Sharjah FC" id="113" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Toronto" id="114" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Zenit" id="115" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Al-Jubail" id="116" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Alverca" id="117" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="FC Juárez" id="118" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1450000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Matsumoto Yama." id="119" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Nacional" id="120" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="80000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Palestino" id="121" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="SH Shenhua" id="122" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="920000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Seoul E-Land" id="123" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Chapecoense" target="H. C. Sapporo" id="124" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Chapecoense" target="Metalist" id="125" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Al-Arabi" id="126" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Estrela Amadora" id="127" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Karmiotissa" id="128" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Karpaty Lviv" id="129" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Maccabi Netanya" id="130" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="119000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Persija" id="131" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="314000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Persik" id="132" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Rosario Central" id="133" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Sport. Cristal" id="134" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Vinotinto FC" id="135" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Wanderers" id="136" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="27.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="YN Yukun" id="137" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Yokohama FC" id="138" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Coritiba FC" target="APOEL Nicósia" id="139" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Coritiba FC" target="Alanyaspor" id="140" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Coritiba FC" target="Coquimbo" id="141" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Coritiba FC" target="Karpaty Lviv" id="142" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="900000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Coritiba FC" target="Midtjylland" id="143" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Coritiba FC" target="Moreirense" id="144" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Coritiba FC" target="União Santarém" id="145" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Al-Bataeh CSC" id="146" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Al-Hilal" id="147" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Argentinos Jrs." id="148" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Arsenal" id="149" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Bournemouth" id="150" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Cerro Porteño" id="151" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Cincinnati" id="152" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Como" id="153" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Copenhague" id="154" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Dallas" id="155" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Dortmund" id="156" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="7000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Dínamo Moscou" id="157" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="5000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="FC Porto" id="158" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="FC Porto B" id="159" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="FK Oleksandriya" id="160" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Indep. Santa Fe" id="161" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Karpaty Lviv" id="162" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="200000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Kyoto Sanga" id="163" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1400000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Metalist 1925" id="164" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Millonarios" id="165" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="240000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Moreirense" id="166" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Norwich" id="167" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="300000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Pafos" id="168" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="150000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Portimonense" id="169" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Rangers" id="170" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Rio Ave" id="171" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="SH Port" id="172" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="316000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Salt Lake" id="173" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Yokohama F. M." id="174" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="APOEL Nicósia" id="175" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Cerezo Osaka" id="176" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Chornomorets" id="177" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Estrela Amadora" id="178" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="400000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Eyüpspor" id="179" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="400000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Hull City" id="180" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Independiente" id="181" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Kaysar" id="182" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Lens" id="183" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Man City U21" id="184" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="NEOM SC" id="185" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="20000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="New York City" id="186" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Newell's" id="187" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Ordabasy" id="188" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Orlando" id="189" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3400000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="QD West Coast" id="190" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Rio Ave" id="191" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="SH Shenhua" id="192" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Santa Clara" id="193" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Sporting" id="194" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="6430000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Juventude" target="Buriram Utd." id="195" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Juventude" target="Portimonense" id="196" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="325000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Juventude" target="Portimonense 23" id="197" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Juventude" target="Santa Clara" id="198" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Juventude" target="Ulsan HD" id="199" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="600000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Juventude" target="Urawa Reds" id="200" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1450000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="A. Bucaramanga" id="201" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Alianza Lima" id="202" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Bolton" id="203" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="FC Seoul" id="204" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Famalicão" id="205" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Göztepe" id="206" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Independiente" id="207" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Júbilo Iwata" id="208" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Kyoto Sanga" id="209" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="425000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Leiria" id="210" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Nacional" id="211" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Olimpia" id="212" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Portimonense" id="213" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Sporting" id="214" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2100000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Ventforet Kofu" id="215" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="APOEL Nicósia" id="216" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="400000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Al-Ahli" id="217" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="9000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="América" id="218" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Arsenal" id="219" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Dallas" id="220" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="560000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Dibba Al-Hisn" id="221" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Eyüpspor" id="222" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="FC Porto" id="223" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Famalicão" id="224" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Houston" id="225" weight="3">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="1700000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Majd FC" id="226" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="NYCFC II" id="227" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Olimpia" id="228" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Pachuca" id="229" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="470000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Pafos" id="230" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="200000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Panserraikos" id="231" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Pattaya United" id="232" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Peñarol" id="233" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Portimonense" id="234" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="QPR" id="235" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="600000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Rangers" id="236" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="800000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Shakhtar" id="237" weight="3">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="27000030.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Sydney FC" id="238" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Torreense S23" id="239" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Wolves" id="240" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="39000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Wydad AC" id="241" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fortaleza EC" target="Al-Khaldiya FC" id="242" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fortaleza EC" target="CA Talleres" id="243" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="250000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fortaleza EC" target="Dinamo de Kiev" id="244" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fortaleza EC" target="Legia Varsóvia" id="245" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fortaleza EC" target="New England" id="246" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1700000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fortaleza EC" target="Santa Clara" id="247" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Fortaleza EC" target="Vélez Sarsfield" id="248" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="245000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="AVS" id="249" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Al-Jazira" id="250" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4750000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Aston Villa" id="251" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="10000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Boca Juniors" id="252" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1540000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Brentford" id="253" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="12000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="CA Talleres" id="254" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Deportivo Cali" id="255" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="FC Tokyo" id="256" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1400000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Fenerbahce" id="257" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Fiorentina" id="258" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="15000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Göztepe" id="259" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Juventus" id="260" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="KF Vora" id="261" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Lanús" id="262" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="New York" id="263" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="455000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Peñarol" id="264" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="301000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Portimonense" id="265" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Portland" id="266" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="San Luis" id="267" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="UD Almería" id="268" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Zenit" id="269" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="AVS" id="270" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="Busan IPark" id="271" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="Cerro Porteño" id="272" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="FC Seoul" id="273" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="FC Tokyo" id="274" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="Júbilo Iwata" id="275" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="Levski Sofia" id="276" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="200000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="Sport. Cristal" id="277" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="Torpedo" id="278" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="Torpedo Kutaisi" id="279" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="40000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Al-Wahda" id="280" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Avispa Fukuoka" id="281" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Benfica B" id="282" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="CSKA Moscou" id="283" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4200000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Cercle Brügge" id="284" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Deportivo Pasto" id="285" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Dinamo de Kiev" id="286" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="FC Rapid 1923" id="287" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Famalicão" id="288" weight="3">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="4500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Fenerbahce" id="289" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Gil Vicente" id="290" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Houston 2" id="291" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Independiente" id="292" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2900000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Kawasaki Front." id="293" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Moreirense" id="294" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="RB Salzburg" id="295" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Real Oviedo" id="296" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="SD Huesca" id="297" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Tokushima Vort." id="298" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Toluca" id="299" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="13500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Torreense S23" id="300" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Zenit" id="301" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="18000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Al-Hilal" id="302" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Al-Nassr" id="303" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="18000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Boca Juniors" id="304" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Ferencváros" id="305" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="180000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Gil Vicente" id="306" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Karpaty Lviv" id="307" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="New York City" id="308" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Nott'm Forest" id="309" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="PSG" id="310" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Pafos" id="311" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Shakhtar" id="312" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Sharjah FC" id="313" weight="3">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="2190000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Tokushima Vort." id="314" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Univ. Católica" id="315" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Verona" id="316" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Vissel Kobe" id="317" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Wydad AC" id="318" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Al-Ahli" id="319" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="10000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Al-Qadsiah" id="320" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="15600000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Al-Rayyan" id="321" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="8500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Alverca" id="322" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Aris Saloniki" id="323" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="CSKA Moscou" id="324" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Casa Pia" id="325" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="250000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Celtic" id="326" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Dinamo de Kiev" id="327" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Estudiantes LP" id="328" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Farense" id="329" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Hertha Berlim" id="330" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Libertad" id="331" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Nacional" id="332" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Orlando" id="333" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2950000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Pachuca" id="334" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="3000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Racing" id="335" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Real Murcia" id="336" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="River Plate" id="337" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="6300000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Shabab Al-Ahli" id="338" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Shakhtar" id="339" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Tigres UANL" id="340" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="5000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="U. de Chile" id="341" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Zenit" id="342" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="AVS" id="343" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Al-Wasl" id="344" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Alverca" id="345" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="América" id="346" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1290000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Austin" id="347" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="8000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Benfica" id="348" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="27000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Chelsea" id="349" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="45000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Colorado" id="350" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Famalicão" id="351" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Farense" id="352" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Man City" id="353" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="37000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Miami" id="354" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Moreirense" id="355" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="NK Osijek" id="356" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Nacional" id="357" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Orlando" id="358" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Qarabağ" id="359" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Real Madrid" id="360" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="47500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="River Plate" id="361" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="7000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Santa Clara" id="362" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Toluca" id="363" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3300000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="UD Almería" id="364" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="6000031.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="West Ham" id="365" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="23000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="ACSM Poli Iasi" id="366" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Al-Bataeh CSC" id="367" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Al-Markhiya SC" id="368" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Atl. Nacional" id="369" weight="3">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Auda" id="370" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Banfield" id="371" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Cancún FC" id="372" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Chelsea U21" id="373" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Cheongju FC" id="374" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Cincinnati" id="375" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Estrela Amadora" id="376" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="FC Burnley" id="377" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2300000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="FC Porto" id="378" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="FC Porto B" id="379" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="FC Portsmouth" id="380" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Houston" id="381" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1800000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Independiente" id="382" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Libertad" id="383" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Loko Moscou" id="384" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="M. Tel Aviv" id="385" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1300000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Nacional" id="386" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Newell's" id="387" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Niki Volos" id="388" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Shakhtar" id="389" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="12000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Tigres UANL" id="390" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="7350000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Tottenham" id="391" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="15000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="V-V. Nagasaki" id="392" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Sport Recife" target="Estrela Amadora" id="393" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Sport Recife" target="Newell's" id="394" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Sport Recife" target="QD Hainiu" id="395" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Sport Recife" target="Racing" id="396" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Sport Recife" target="Táchira" id="397" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="Sport Recife" target="Wolves" id="398" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="10000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Belgrano" id="399" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="19.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="CSKA Moscou" id="400" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="10200000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Deportivo Cali" id="401" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Estudiantes LP" id="402" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="735000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="FC Porto" id="403" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="9000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="FC Porto B" id="404" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="GD GZ-Power" id="405" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Independiente" id="406" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Krasnodar" id="407" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="7500000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Lazio" id="408" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Nacional" id="409" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Newcastle" id="410" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Rayo Vallecano" id="411" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="River Plate" id="412" weight="4">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="4000062.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Sassuolo" id="413" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Shakhtar" id="414" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="12000000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Southampton" id="415" weight="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="900000.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Thundering Herd" id="416" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="VRS Academy" id="417" weight="1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="Série A" />
+          <attvalue for="3" value="Exterior" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

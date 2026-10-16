@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-15">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="valor_financeiro" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Exterior" label="Exterior" />
+      <node id="Série A" label="Série A" />
+      <node id="Série B" label="Série B" />
+      <node id="Séries Inferiores" label="Séries Inferiores" />
+    </nodes>
+    <edges>
+      <edge source="Exterior" target="Série A" id="0" weight="479">
+        <attvalues>
+          <attvalue for="0" value="744641025.0" />
+        </attvalues>
+      </edge>
+      <edge source="Exterior" target="Série B" id="1" weight="264">
+        <attvalues>
+          <attvalue for="0" value="8651367.0" />
+        </attvalues>
+      </edge>
+      <edge source="Série A" target="Exterior" id="2" weight="471">
+        <attvalues>
+          <attvalue for="0" value="923873454.0" />
+        </attvalues>
+      </edge>
+      <edge source="Série A" target="Série B" id="3" weight="42">
+        <attvalues>
+          <attvalue for="0" value="154.0" />
+        </attvalues>
+      </edge>
+      <edge source="Série A" target="Séries Inferiores" id="4" weight="813">
+        <attvalues>
+          <attvalue for="0" value="224543424.0" />
+        </attvalues>
+      </edge>
+      <edge source="Série B" target="Exterior" id="5" weight="284">
+        <attvalues>
+          <attvalue for="0" value="57698026.0" />
+        </attvalues>
+      </edge>
+      <edge source="Série B" target="Série A" id="6" weight="35">
+        <attvalues>
+          <attvalue for="0" value="506560.0" />
+        </attvalues>
+      </edge>
+      <edge source="Série B" target="Séries Inferiores" id="7" weight="1266">
+        <attvalues>
+          <attvalue for="0" value="49235173.0" />
+        </attvalues>
+      </edge>
+      <edge source="Séries Inferiores" target="Série A" id="8" weight="969">
+        <attvalues>
+          <attvalue for="0" value="275096414.0" />
+        </attvalues>
+      </edge>
+      <edge source="Séries Inferiores" target="Série B" id="9" weight="1311">
+        <attvalues>
+          <attvalue for="0" value="5321231.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,1243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-15">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="clubes_gringos_em_comum" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Categoria" type="string" />
+    </attributes>
+    <nodes>
+      <node id="São Paulo FC" label="São Paulo FC">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="CR Flamengo" label="CR Flamengo">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Atlético Mineiro" label="Atlético Mineiro">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="SC Internacional" label="SC Internacional">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="SE Palmeiras" label="SE Palmeiras">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="CR Vasco da Gama" label="CR Vasco da Gama">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="RB Bragantino" label="RB Bragantino">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Ceará SC" label="Ceará SC">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Botafogo FR" label="Botafogo FR">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Santos FC" label="Santos FC">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Grêmio FBPA" label="Grêmio FBPA">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="EC Bahia" label="EC Bahia">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="EC Vitória" label="EC Vitória">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Fluminense FC" label="Fluminense FC">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Athletico Paranaense" label="Athletico Paranaense">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="SC Corinthians" label="SC Corinthians">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Sport Recife" label="Sport Recife">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Cruzeiro EC" label="Cruzeiro EC">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Fortaleza EC" label="Fortaleza EC">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Coritiba FC" label="Coritiba FC">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Clube do Remo" label="Clube do Remo">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Mirassol FC" label="Mirassol FC">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="EC Juventude" label="EC Juventude">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+      <node id="Chapecoense" label="Chapecoense">
+        <attvalues>
+          <attvalue for="0" value="Série A" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="São Paulo FC" target="CR Flamengo" id="0" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Southampton, River Plate" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Atlético Mineiro" id="1" weight="8">
+        <attvalues>
+          <attvalue for="1" value="Southampton, CSKA Moscou, Krasnodar, Shakhtar, Nacional, River Plate, Sassuolo, FC Porto" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="SC Internacional" id="2" weight="5">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Shakhtar, Nacional, River Plate, Estudiantes LP" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="SE Palmeiras" id="3" weight="4">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Nacional, River Plate, Lazio" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="CR Vasco da Gama" id="4" weight="4">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Nacional, River Plate, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="RB Bragantino" id="5" weight="3">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, River Plate, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Botafogo FR" id="6" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Krasnodar, Nacional, León, Independiente, FC Porto B, Estudiantes LP" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Fluminense FC" id="7" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional, River Plate, FC Porto" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Athletico Paranaense" id="8" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional, León, Independiente, Indep. Medellín" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Santos FC" id="9" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional, León, Independiente, FC Porto B, FC Porto" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="SC Corinthians" id="10" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Mirassol FC" id="11" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="EC Vitória" id="12" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Ceará SC" id="13" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Cruzeiro EC" id="14" weight="5">
+        <attvalues>
+          <attvalue for="1" value="SH Port, Independiente, Sassuolo, FC Porto B, FC Porto" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="EC Bahia" id="15" weight="3">
+        <attvalues>
+          <attvalue for="1" value="SH Port, Independiente, Estudiantes LP" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Sport Recife" id="16" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Fortaleza EC" id="17" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Estudiantes LP" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Grêmio FBPA" id="18" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Indep. Medellín, New York, Deportivo Cali" />
+        </attvalues>
+      </edge>
+      <edge source="São Paulo FC" target="Chapecoense" id="19" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Metalist" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Atlético Mineiro" id="20" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Southampton, Zenit, River Plate, Dínamo Moscou, Al-Ahli" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Santos FC" id="21" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Estrela Amadora, Al-Hilal" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Sport Recife" id="22" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Estrela Amadora, Zenit" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="EC Bahia" id="23" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Estrela Amadora, Orlando" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Clube do Remo" id="24" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Estrela Amadora" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="SC Internacional" id="25" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Zenit, River Plate, Al-Ahli, Orlando" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Grêmio FBPA" id="26" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Juventus, Dínamo Moscou, Göztepe" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Botafogo FR" id="27" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Everton, Dínamo Moscou, Al-Dhafra FC, Atlético, Al-Ula" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="CR Vasco da Gama" id="28" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Zenit, River Plate, Gil Vicente" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Cruzeiro EC" id="29" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Juventus, Al-Hilal, Arsenal, Dínamo Moscou" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="RB Bragantino" id="30" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Zenit, River Plate, Gil Vicente" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="Fluminense FC" id="31" weight="3">
+        <attvalues>
+          <attvalue for="1" value="River Plate, Arsenal, Al-Ahli" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="SE Palmeiras" id="32" weight="4">
+        <attvalues>
+          <attvalue for="1" value="River Plate, Qarabağ, Orlando, West Ham" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="SC Corinthians" id="33" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Chaves, Al-Hilal, Gil Vicente" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="EC Vitória" id="34" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Göztepe" />
+        </attvalues>
+      </edge>
+      <edge source="CR Flamengo" target="EC Juventude" id="35" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Al-Dhafra FC" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="SC Internacional" id="36" weight="9">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Shakhtar, Racing, Nacional, Zenit, Shabab Al-Ahli, River Plate, Alverca, Al-Ahli" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="SE Palmeiras" id="37" weight="6">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Nacional, River Plate, Alverca, Real Madrid, Al-Wasl" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="CR Vasco da Gama" id="38" weight="7">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Boca Juniors, Nacional, Zenit, River Plate, Alverca, Basaksehir" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="RB Bragantino" id="39" weight="4">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Zenit, River Plate, Cercle Brügge" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Ceará SC" id="40" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Palestino, Sydney FC, Nacional, Alverca" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Botafogo FR" id="41" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Krasnodar, Nacional, Zenit, Shabab Al-Ahli, Dínamo Moscou, Al-Wasl" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Santos FC" id="42" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos, Shakhtar, Nacional, FC Porto" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Grêmio FBPA" id="43" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos, Racing, Boca Juniors, Zenit, Dínamo Moscou" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="EC Bahia" id="44" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos, Sporting" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="EC Vitória" id="45" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos, Nacional, Sporting" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Fluminense FC" id="46" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Sydney FC, Shakhtar, Nacional, River Plate, FC Porto, Al-Ahli" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Athletico Paranaense" id="47" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="SC Corinthians" id="48" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Boca Juniors, Karpaty Lviv, Verona" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Sport Recife" id="49" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Racing, Zenit" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Cruzeiro EC" id="50" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Racing, Karpaty Lviv, Zenit, Sassuolo, Dínamo Moscou, FC Porto" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Fortaleza EC" id="51" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Boca Juniors" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Coritiba FC" id="52" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Karpaty Lviv, Shabab Al-Ahli" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Clube do Remo" id="53" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Karpaty Lviv" />
+        </attvalues>
+      </edge>
+      <edge source="Atlético Mineiro" target="Mirassol FC" id="54" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="SE Palmeiras" id="55" weight="8">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Nacional, River Plate, Alverca, Midtjylland, AVS, Farense, Orlando" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="CR Vasco da Gama" id="56" weight="10">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Nacional, Zenit, Cerro Porteño, River Plate, Alverca, Aris Saloniki, Casa Pia, Alanyaspor, Al-Rayyan" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="RB Bragantino" id="57" weight="5">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Zenit, River Plate, Dinamo de Kiev, Real Oviedo" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Fluminense FC" id="58" weight="7">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional, River Plate, Libertad, Al-Ahli, Pachuca, Lanús" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Athletico Paranaense" id="59" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional, U. de Chile" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Santos FC" id="60" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional, Libertad, Auda, Tigres UANL" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="SC Corinthians" id="61" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Midtjylland, Al-Qadsiah" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Grêmio FBPA" id="62" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Racing, Zenit, AVS, Lanús" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Sport Recife" id="63" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Racing, Zenit, Lanús, Olympiacos" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Cruzeiro EC" id="64" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Racing, Zenit, Cerro Porteño, Argentinos Jrs., AVS, Como" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Mirassol FC" id="65" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Cerro Porteño, AVS" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Botafogo FR" id="66" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Zenit, Shabab Al-Ahli, Cerro Porteño, Estudiantes LP, Al-Rayyan" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="EC Vitória" id="67" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Alanyaspor, Al-Rayyan" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Ceará SC" id="68" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Alverca" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Coritiba FC" id="69" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Shabab Al-Ahli, Midtjylland, Alanyaspor" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Fortaleza EC" id="70" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Dinamo de Kiev, Estudiantes LP" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="EC Bahia" id="71" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Estudiantes LP, Orlando" />
+        </attvalues>
+      </edge>
+      <edge source="SC Internacional" target="Clube do Remo" id="72" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Casa Pia" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="CR Vasco da Gama" id="73" weight="8">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Nacional, Santa Clara, River Plate, Toluca, Alverca, Nott'm Forest, Miami" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="RB Bragantino" id="74" weight="5">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, River Plate, Toluca, Famalicão, Moreirense" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Mirassol FC" id="75" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Nacional, AVS" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Fluminense FC" id="76" weight="8">
+        <attvalues>
+          <attvalue for="1" value="Nacional, River Plate, Famalicão, Rangers, Chelsea, Wolves, Houston, América" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Athletico Paranaense" id="77" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Santos FC" id="78" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Famalicão, Houston, Benfica" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Botafogo FR" id="79" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Santa Clara, Nott'm Forest, Houston, Benfica, Al-Wasl" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="EC Vitória" id="80" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Famalicão, Moreirense, Al-Fayha" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Ceará SC" id="81" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Moreirense, Alverca" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="EC Juventude" id="82" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Santa Clara" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Fortaleza EC" id="83" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Santa Clara" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="EC Bahia" id="84" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Santa Clara, Orlando" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Grêmio FBPA" id="85" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Toluca, AVS, LAFC, UD Almería, Fulham" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Coritiba FC" id="86" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Moreirense, Midtjylland" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Cruzeiro EC" id="87" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Moreirense, AVS, Rangers" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="SC Corinthians" id="88" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Midtjylland, Nott'm Forest" />
+        </attvalues>
+      </edge>
+      <edge source="SE Palmeiras" target="Sport Recife" id="89" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Wolves" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="RB Bragantino" id="90" weight="7">
+        <attvalues>
+          <attvalue for="1" value="CSKA Moscou, Zenit, Peñarol, River Plate, Toluca, Independiente, Gil Vicente" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Fortaleza EC" id="91" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Boca Juniors, Rio Ave, Santa Clara, CA Talleres, Eibar" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Grêmio FBPA" id="92" weight="7">
+        <attvalues>
+          <attvalue for="1" value="Boca Juniors, Zenit, Peñarol, Toluca, CA Talleres, Al-Shabab, Aston Villa" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="SC Corinthians" id="93" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Boca Juniors, Peñarol, Nott'm Forest, Sharjah FC, Gil Vicente" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Mirassol FC" id="94" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Cerro Porteño" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Fluminense FC" id="95" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Peñarol, River Plate, Panserraikos, Olimpia" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Athletico Paranaense" id="96" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Independiente, CA Talleres, Sharjah FC, Atl. Nacional, Olimpia" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Santos FC" id="97" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Ludogorets, Independiente, Cincinnati, Atl. Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Botafogo FR" id="98" weight="13">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Rio Ave, Udinese, Zenit, Ludogorets, C. Rizespor, Santa Clara, Cerro Porteño, Independiente, Nott'm Forest, Atl. Nacional, Bournemouth, Al-Rayyan" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="EC Vitória" id="99" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Independiente, Alanyaspor, Olimpia, Leiria, Al-Rayyan" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Ceará SC" id="100" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Nacional, CA Talleres, Alverca" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="EC Bahia" id="101" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Rio Ave, Santa Clara, Independiente, Eibar" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Cruzeiro EC" id="102" weight="7">
+        <attvalues>
+          <attvalue for="1" value="Rio Ave, Udinese, Zenit, Cerro Porteño, Independiente, Cincinnati, Bournemouth" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Sport Recife" id="103" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="EC Juventude" id="104" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Santa Clara, CA Talleres" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Clube do Remo" id="105" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Casa Pia" />
+        </attvalues>
+      </edge>
+      <edge source="CR Vasco da Gama" target="Coritiba FC" id="106" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Alanyaspor" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Grêmio FBPA" id="107" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Peñarol, Toluca, Fenerbahce" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Sport Recife" id="108" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Botafogo FR" id="109" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Al-Wahda, Kawasaki Front., Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Cruzeiro EC" id="110" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Independiente, Moreirense" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Fluminense FC" id="111" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Peñarol, River Plate, Famalicão, Torreense S23" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="SC Corinthians" id="112" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Peñarol, Tokushima Vort., Gil Vicente" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Athletico Paranaense" id="113" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Tigre, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Clube do Remo" id="114" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Kawasaki Front." />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Santos FC" id="115" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Independiente, Famalicão, Fenerbahce" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="EC Bahia" id="116" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="EC Vitória" id="117" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Independiente, Famalicão, Moreirense" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Fortaleza EC" id="118" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Dinamo de Kiev" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Coritiba FC" id="119" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Moreirense" />
+        </attvalues>
+      </edge>
+      <edge source="RB Bragantino" target="Ceará SC" id="120" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Moreirense" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Fluminense FC" id="121" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Sydney FC, Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Mirassol FC" id="122" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Nacional, SH Shenhua" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Athletico Paranaense" id="123" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Nacional, CA Talleres" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Santos FC" id="124" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Botafogo FR" id="125" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="EC Vitória" id="126" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Moreirense" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="EC Juventude" id="127" weight="1">
+        <attvalues>
+          <attvalue for="1" value="CA Talleres" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Fortaleza EC" id="128" weight="1">
+        <attvalues>
+          <attvalue for="1" value="CA Talleres" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Grêmio FBPA" id="129" weight="1">
+        <attvalues>
+          <attvalue for="1" value="CA Talleres" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Coritiba FC" id="130" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Moreirense" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="Cruzeiro EC" id="131" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Moreirense" />
+        </attvalues>
+      </edge>
+      <edge source="Ceará SC" target="EC Bahia" id="132" weight="1">
+        <attvalues>
+          <attvalue for="1" value="SH Shenhua" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Mirassol FC" id="133" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Cerro Porteño" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Fluminense FC" id="134" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Portimonense, Junior FC, Houston" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Athletico Paranaense" id="135" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Nacional, León, Independiente, Atl. Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Santos FC" id="136" weight="11">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Ludogorets, FC Burnley, León, Independiente, FC Porto B, Houston, Benfica, Cádiz CF, Estoril, Atl. Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="EC Vitória" id="137" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Portimonense, Independiente, Al-Rayyan" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="SC Corinthians" id="138" weight="3">
+        <attvalues>
+          <attvalue for="1" value="New York City, Al-Nassr, Nott'm Forest" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="EC Bahia" id="139" weight="6">
+        <attvalues>
+          <attvalue for="1" value="New York City, Rio Ave, Santa Clara, Al-Ain, Independiente, Estudiantes LP" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Fortaleza EC" id="140" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Rio Ave, Santa Clara, Junior FC, Estudiantes LP, Vélez Sarsfield" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Cruzeiro EC" id="141" weight="11">
+        <attvalues>
+          <attvalue for="1" value="Rio Ave, Udinese, Zenit, Salt Lake, Cerro Porteño, Portimonense, Independiente, FC Porto B, Dínamo Moscou, Millonarios, Bournemouth" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Grêmio FBPA" id="142" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Portimonense, Dínamo Moscou, Junior FC" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Sport Recife" id="143" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Zenit, Independiente, Vélez Sarsfield" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Coritiba FC" id="144" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Shabab Al-Ahli, Cádiz CF" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="EC Juventude" id="145" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Santa Clara, Portimonense, Millonarios, Al-Dhafra FC" />
+        </attvalues>
+      </edge>
+      <edge source="Botafogo FR" target="Clube do Remo" id="146" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Kawasaki Front." />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Grêmio FBPA" id="147" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos, Fenerbahce" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="EC Bahia" id="148" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos, Spartak Moscou, Estrela Amadora, Newell's, Independiente, Tottenham" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="EC Vitória" id="149" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos, Nacional, Independiente, Famalicão" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Fluminense FC" id="150" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional, Famalicão, FC Porto, Libertad, Houston" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Athletico Paranaense" id="151" weight="7">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional, León, Independiente, Once Caldas, Puebla FC, Atl. Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="SC Corinthians" id="152" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Al-Hilal" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Mirassol FC" id="153" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Sport Recife" id="154" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Estrela Amadora, Newell's, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Clube do Remo" id="155" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Estrela Amadora" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Cruzeiro EC" id="156" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Independiente, Al-Hilal, FC Porto B, Al-Bataeh CSC, FC Porto, Cincinnati" />
+        </attvalues>
+      </edge>
+      <edge source="Santos FC" target="Coritiba FC" id="157" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Cádiz CF" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="EC Bahia" id="158" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="EC Vitória" id="159" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos, Portimonense, Göztepe, Alianza Lima" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Sport Recife" id="160" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Racing, Zenit, Lanús" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Cruzeiro EC" id="161" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Racing, Zenit, Portimonense, Juventus, AVS, Dínamo Moscou" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Fortaleza EC" id="162" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Boca Juniors, CA Talleres, Junior FC" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="SC Corinthians" id="163" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Boca Juniors, Peñarol, Univ. Católica" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Fluminense FC" id="164" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Portimonense, Peñarol, Alianza Lima, Junior FC, Lanús, Portland" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="EC Juventude" id="165" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Portimonense, CA Talleres" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Athletico Paranaense" id="166" weight="2">
+        <attvalues>
+          <attvalue for="1" value="CA Talleres, Indep. Medellín" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Mirassol FC" id="167" weight="2">
+        <attvalues>
+          <attvalue for="1" value="AVS, FC Tokyo" />
+        </attvalues>
+      </edge>
+      <edge source="Grêmio FBPA" target="Clube do Remo" id="168" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Huracán" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="EC Vitória" id="169" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Panathinaikos, Sporting, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Clube do Remo" id="170" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Liverpool FC, Estrela Amadora, Cerezo Osaka" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="SC Corinthians" id="171" weight="1">
+        <attvalues>
+          <attvalue for="1" value="New York City" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="EC Juventude" id="172" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Portimonense 23, Ordabasy, Santa Clara, APOEL Nicósia" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Cruzeiro EC" id="173" weight="3">
+        <attvalues>
+          <attvalue for="1" value="SH Port, Rio Ave, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Sport Recife" id="174" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Estrela Amadora, Newell's, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Fortaleza EC" id="175" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Rio Ave, Santa Clara, Estudiantes LP, Eibar" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Athletico Paranaense" id="176" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Mirassol FC" id="177" weight="1">
+        <attvalues>
+          <attvalue for="1" value="SH Shenhua" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Fluminense FC" id="178" weight="2">
+        <attvalues>
+          <attvalue for="1" value="APOEL Nicósia, Eyüpspor" />
+        </attvalues>
+      </edge>
+      <edge source="EC Bahia" target="Coritiba FC" id="179" weight="1">
+        <attvalues>
+          <attvalue for="1" value="APOEL Nicósia" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Mirassol FC" id="180" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Marítimo, FC Seoul, Júbilo Iwata" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Fluminense FC" id="181" weight="5">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Portimonense, Famalicão, Alianza Lima, Olimpia" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Athletico Paranaense" id="182" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Independiente, Olimpia" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="EC Juventude" id="183" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Portimonense" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Cruzeiro EC" id="184" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Portimonense, Independiente, Moreirense, Kyoto Sanga" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Sport Recife" id="185" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Coritiba FC" id="186" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Moreirense, Alanyaspor" />
+        </attvalues>
+      </edge>
+      <edge source="EC Vitória" target="Clube do Remo" id="187" weight="1">
+        <attvalues>
+          <attvalue for="1" value="YN Yukun" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Athletico Paranaense" id="188" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Nacional, Pafos, Olimpia" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="SC Corinthians" id="189" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Peñarol, Wydad AC, Pafos" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Mirassol FC" id="190" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Nacional, Sport. Cristal" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="EC Juventude" id="191" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Portimonense, APOEL Nicósia" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Cruzeiro EC" id="192" weight="6">
+        <attvalues>
+          <attvalue for="1" value="Portimonense, Pafos, Arsenal, Dallas, FC Porto, Rangers" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Clube do Remo" id="193" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Sport. Cristal" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Fortaleza EC" id="194" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Junior FC" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Coritiba FC" id="195" weight="1">
+        <attvalues>
+          <attvalue for="1" value="APOEL Nicósia" />
+        </attvalues>
+      </edge>
+      <edge source="Fluminense FC" target="Sport Recife" id="196" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Wolves, Lanús" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="SC Corinthians" id="197" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Shakhtar, Pafos, Sharjah FC, Besiktas" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Mirassol FC" id="198" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Nacional" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Sport Recife" id="199" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Cruzeiro EC" id="200" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Independiente, Pafos, Besiktas" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="EC Juventude" id="201" weight="1">
+        <attvalues>
+          <attvalue for="1" value="CA Talleres" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Fortaleza EC" id="202" weight="1">
+        <attvalues>
+          <attvalue for="1" value="CA Talleres" />
+        </attvalues>
+      </edge>
+      <edge source="Athletico Paranaense" target="Clube do Remo" id="203" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Cong An HCMC" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Fortaleza EC" id="204" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Boca Juniors" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Coritiba FC" id="205" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Karpaty Lviv, Midtjylland" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Clube do Remo" id="206" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Karpaty Lviv" />
+        </attvalues>
+      </edge>
+      <edge source="SC Corinthians" target="Cruzeiro EC" id="207" weight="4">
+        <attvalues>
+          <attvalue for="1" value="Karpaty Lviv, Pafos, Al-Hilal, Besiktas" />
+        </attvalues>
+      </edge>
+      <edge source="Sport Recife" target="Cruzeiro EC" id="208" weight="3">
+        <attvalues>
+          <attvalue for="1" value="Racing, Zenit, Independiente" />
+        </attvalues>
+      </edge>
+      <edge source="Sport Recife" target="Clube do Remo" id="209" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Estrela Amadora" />
+        </attvalues>
+      </edge>
+      <edge source="Sport Recife" target="Fortaleza EC" id="210" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Vélez Sarsfield" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Coritiba FC" id="211" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Karpaty Lviv, Moreirense" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Clube do Remo" id="212" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Karpaty Lviv" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Fortaleza EC" id="213" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Rio Ave" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="Mirassol FC" id="214" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Cerro Porteño, AVS" />
+        </attvalues>
+      </edge>
+      <edge source="Cruzeiro EC" target="EC Juventude" id="215" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Portimonense, Millonarios" />
+        </attvalues>
+      </edge>
+      <edge source="Fortaleza EC" target="EC Juventude" id="216" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Santa Clara, CA Talleres" />
+        </attvalues>
+      </edge>
+      <edge source="Coritiba FC" target="Clube do Remo" id="217" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Karpaty Lviv" />
+        </attvalues>
+      </edge>
+      <edge source="Coritiba FC" target="EC Juventude" id="218" weight="1">
+        <attvalues>
+          <attvalue for="1" value="APOEL Nicósia" />
+        </attvalues>
+      </edge>
+      <edge source="Clube do Remo" target="Mirassol FC" id="219" weight="2">
+        <attvalues>
+          <attvalue for="1" value="Sport. Cristal, Yokohama FC" />
+        </attvalues>
+      </edge>
+      <edge source="Mirassol FC" target="EC Juventude" id="220" weight="1">
+        <attvalues>
+          <attvalue for="1" value="Ulsan HD" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
